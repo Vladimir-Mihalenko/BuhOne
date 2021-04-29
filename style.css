@@ -1,0 +1,892 @@
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.HeaderWrapper{
+    max-width: 1116px;
+    width: 100%;
+    margin: 22px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderLogo{
+    display: flex;
+    align-items: center;
+}
+.HeaderLogoText{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #005FA3;
+    margin-left: 30px;
+}
+.HeaderMenu{
+    display: none;
+}
+.HeaderRigthPartWrapper{
+    max-width: 671px;
+    width: 100%;
+}
+.HeaderContacts{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderContactsWrapper{
+    display: flex;
+    align-items: center;
+}
+.HeaderContactsImg{
+    margin-right: 15px;
+}
+.HeaderNavWrapper{
+    margin-top: 22px;
+}
+.HeaderNav{
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderNav a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+}
+.SliderWrapper{
+    background-image: url(img/Rectangle.png);
+    height: 670px;
+    display: flex;
+}
+.SliderInfoBox{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 387px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.SliderInfoBoxText{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+.SliderInfoBoxButton{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 270px;
+    width: 100%;
+    height: 60px;
+    background: #005FA3;
+}
+.SliderNav {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.SliderNavCircle{
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Circle{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    opacity: .2;
+}
+#CircleActive{
+    opacity: 1;
+}
+.SliderNavButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SliderNavButtonLeft{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    opacity: .2;
+}
+.SliderNavButtonRigth{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    opacity: .4;
+
+}
+.LeftArrow{
+    margin-right: -34.5px;
+    margin-left: 34.5px;
+}
+.RightArrow{
+    margin-left: -34.5px;
+    margin-right: 34.5px; 
+}
+.ServicesWrapper{
+    min-height: 1242px;
+    background: #EBEBEB;
+}
+.ServicesTextWrapper{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.TopGrayText{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    margin-bottom: 40px;
+}
+.MainBlackText{   
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+.ServicesGalleryWrapper{
+    max-width: 1170px;
+    width: 100%;
+    margin: 87px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ServicesGalleryBox{
+    background-image: url(img/Rectangle\ 2.png);
+    max-width: 350px;
+    width: 100%;
+    height: 360px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.ServicesGalleryBoxText{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 45px;
+}
+.BoxActive{
+    background-color: #005fa3a6;
+    background-blend-mode: screen;
+}
+.AboutUsWrapper{
+    padding-top: 140px;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 110px;
+}
+.AboutUsTextBox{
+    max-width: 445px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutUsText{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 60px;
+}
+.AboutUsBoxWrapper{
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.AboutUsBox{
+    max-width: 255px;
+    width: 100%;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    background: #EBEBEB;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.AboutUsBoxNumber{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.AboutUsBoxP{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 47px;
+    margin-left: 40px;
+}
+.AboutUsBoxLink{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+    margin-left: 40px;
+}
+.AboutUsBoxActive{
+    color: #FFFFFF;
+    background: #005FA3;
+}
+.OwrClientsWrapper{
+    background: #EBEBEB;
+}
+.OwrClients{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0  auto;
+    padding-top: 100px;
+}
+.OwrClientsLogo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+}
+.OwrClientsNavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+.OwrClientsNavCircle{
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Circle2{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #005FA3;
+    opacity: .2;
+}
+#CircleActive2{
+    opacity: 1;
+}
+.OwrClientsNavButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OwrClientsNavButtonLeft{
+    width: 60px;
+    height: 60px;
+    background: #005FA3;
+    opacity: .2;
+
+}
+.OwrClientsNavButtonRigth{
+    width: 60px;
+    height: 60px;
+    background: #005FA3;
+
+
+}
+.LeftArrow{
+    margin-right: -34.5px;
+}
+.RightArrow{
+    margin-left: -34.5px; 
+}
+.RecallWrapper{
+
+}
+.Recall{
+    max-width: 1110px;
+    width: 100%;
+    margin: 140px auto;
+}
+.RecallBoxWrapper{
+    margin-top: 80px;
+    background: #EBEBEB;
+}
+.RecallBox{
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    margin-bottom: 50px;
+}
+.RecallBoxText{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.RecallBoxPerson{
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+}
+.RecallBoxPersonInfo{
+    margin-left: 35px;
+
+}
+.RecallBoxPersonName{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.RecallBoxPersonJob{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+}
+.СonnectionBackground{
+    background-image: url(img/Backgroung2.png);
+    margin-top: 40px;
+    min-height: 623px;
+}
+.ConnectionWrapper{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 122px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ConnectionInformationWrapper{
+    max-width: 470px;
+    width: 100%;
+}
+.ConnectionInformationH{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+.ConnectionInformationP{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 80px;
+    color: #FFFFFF;
+}
+.ConnectionInformationContacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ConnectionInformationPhone{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    display: flex;
+}
+.ConnectionInformationImg{
+    margin-right: 15px;
+}
+.ConnectionFormWrapper{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+.ConnectionForm{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+
+}
+.ConnectionFormNameWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.ConnectionFormName{
+    background: none;
+    width: 255px;
+    color: #616161;
+    border-width: 0;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+
+.ConnectionFormText{
+    margin-bottom: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.ConnectionFormTextBox{
+    background: none;
+    width: 100%;
+    color: #616161;
+    border-width: 0;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 59px;
+    resize: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+.ConnectionFormButton{
+    max-width: 270px;
+    width: 100%;
+    height: 60px;
+    background: #005FA3;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.ConnectionFormButtonWrapper{
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.FooterWrapper{
+    min-height: 110px;
+    background-color: white;
+}
+.FooterTextWrapper{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.FooterText{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .HeaderWrapper{
+        flex-direction: column;
+    }
+    .HeaderLogo{
+        margin-bottom: 15px;
+    }
+    
+    .SliderWrapper {
+        height: 500px;
+    }
+    .SliderInfoBox {
+        max-width: 650px;
+    }
+    .SliderInfoBoxText{
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .SliderInfoBoxButton {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 240px;
+        width: 100%;
+        height: 50px;
+    }
+    .ServicesTextWrapper {
+        max-width: 650px;
+        padding-top: 80px;
+    }
+    .TopGrayText {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .MainBlackText{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .AboutUsWrapper {
+        padding-top: 0px;
+        max-width: 650px;
+        margin-bottom: 35px;
+    }
+    .AboutUsTextBox {
+        max-width: 650px;
+    }
+    .AboutUsText {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .AboutUsBoxWrapper {
+        max-width: 650px;
+        justify-content: center;
+    }
+    .AboutUsBox{
+        margin: 15px;
+    }
+    .OwrClients {
+        max-width: 650px;
+        padding-top: 60px;
+    }
+    .OwrClientsLogo {
+        margin-top: 30px;
+    }
+    .OwrClientsNavWrapper {
+        padding-bottom: 60px;
+    }
+    .Recall {
+        max-width: 650px;
+        margin: 60px auto;
+    }
+    .RecallBox {
+        margin-bottom: 25px;
+    }
+    .RecallBoxText {
+        max-width: 579px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 40px;
+    }
+    .RecallBoxPerson {
+        max-width: 580px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .СonnectionBackground {
+        margin-top: 0;
+    }
+    .ConnectionWrapper {
+        max-width: 650px;
+        padding-top: 60px;
+    }
+    .ConnectionInformationWrapper {
+        max-width: 650px;
+    }
+    .ConnectionForm {
+        width: 650px;
+        margin-top: 40px;
+        padding-bottom: 60px;
+    }
+    .ConnectionInformationH {
+        font-size: 48px;
+        line-height: 52px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .ConnectionInformationP {
+        margin-bottom: 50px;
+    }
+    .ConnectionFormButtonWrapper {
+        max-width: 650px;
+    }
+    .FooterTextWrapper {
+        max-width: 650px;
+    }
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px){
+    .HeaderMenu{
+        display: block;
+    }
+    .HeaderMenu {
+        width: 50px;
+        height: 50px;
+        background-color: #616161;
+    }
+    .ext-menu {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ext-menu1,.ext-menu2,.ext-menu3 {
+        border-bottom: 4px solid white;
+        width: 21px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .HeaderRigthPartWrapper{
+        display: none;
+    }
+    .HeaderWrapper {
+        max-width: 340px;
+    }
+    .SliderWrapper {
+        height: 380px;
+    }
+    .SliderInfoBox {
+        max-width: 340px;
+        height: 285px;
+    }
+    .SliderInfoBoxText{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .SliderInfoBoxButton {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 220px;
+        width: 100%;
+        height: 40px;
+    }
+    .SliderNavCircle {
+        max-width: 110px;
+    }
+    .SliderNavButtonRigth {
+        color: white;
+        width: 50px;
+        height: 50px;
+    }
+    .SliderNavButtonLeft {
+        width: 50px;
+        height: 50px;
+    }
+    .ServicesTextWrapper {
+        max-width: 340px;
+        padding-top: 50px;
+    }
+    .TopGrayText {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+    .MainBlackText{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .ServicesGalleryWrapper{
+        margin: 30px auto;
+    }
+    .AboutUsWrapper {
+        padding-top: 0px;
+        max-width: 340px;
+        margin-bottom: 35px;
+    }
+    .AboutUsTextBox {
+        max-width: 340px;
+    }
+    .AboutUsText {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .AboutUsBoxWrapper {
+        max-width: 340px;
+        justify-content: center;
+    }
+    .AboutUsBox{
+        margin: 15px;
+    }
+    .OwrClients {
+        max-width: 340px;
+        padding-top: 60px;
+    }
+    .OwrClientsLogo {
+        margin-top: 30px;
+    }
+    .OwrClientsNavWrapper {
+        padding-bottom: 60px;
+    }
+    .Recall {
+        max-width: 340px;
+        margin: 60px auto;
+    }
+    .RecallBox {
+        margin-bottom: 25px;
+    }
+    .RecallBoxText {
+        max-width: 295px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 40px;
+    }
+    .RecallBoxPerson {
+        max-width: 295px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .СonnectionBackground {
+        margin-top: 0;
+    }
+    .ConnectionWrapper {
+        max-width: 340px;
+        padding-top: 60px;
+    }
+    .ConnectionInformationWrapper {
+        max-width: 340px;
+    }
+    .ConnectionForm {
+        width: 340px;
+        margin-top: 40px;
+        padding-bottom: 60px;
+    }
+    .ConnectionInformationH {
+        font-size: 44px;
+        line-height: 52px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .ConnectionInformationP {
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .ConnectionFormButtonWrapper {
+        max-width: 340px;
+    }
+    .FooterTextWrapper {
+        max-width: 340px;
+        justify-content: center;
+    }
+    .OwrClientsNavCircle {
+        max-width: 110px;
+    }
+    .OwrClientsNavButtonRigth {
+        width: 50px;
+        height: 50px;
+    }
+    .OwrClientsNavButtonLeft {
+        width: 50px;
+        height: 50px;
+    }
+    .ConnectionInformationPhone{
+        margin-bottom: 25px;
+    }
+    .ConnectionInformationContacts{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ConnectionFormName {
+        width: 150px;
+    }
+    .RecallBoxWrapper {
+        margin-top: 30px;
+    }
+    
+}
