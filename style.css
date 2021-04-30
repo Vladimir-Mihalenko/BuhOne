@@ -73,20 +73,27 @@ body{
     text-decoration: none;
 }
 .SliderWrapper{
-    background-image: url(img/Rectangle.png);
+    margin: 0 auto;
     height: 670px;
     display: flex;
+    position: relative;
+    overflow: hidden;
 }
-.SliderInfoBox{
-    max-width: 1110px;
+.SliderLine{
+    max-width: 1920px;
     width: 100%;
-    margin: auto;
     display: flex;
-    height: 387px;
+    transition: all ease 1s;
+}
+.SlіderBox img{
+    max-width: 1920px;
+    height: 671px;
+}
+.SlіderBoxContent{
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-
+    margin-top: -500px;
+    padding-left: 405px ;
 }
 .SliderInfoBoxText{
     font-family: Merriweather;
@@ -95,6 +102,7 @@ body{
     font-size: 48px;
     line-height: 66px;
     color: #FFFFFF;
+    margin-bottom: 80px;
 }
 .SliderInfoBoxButton{
     font-family: Lato;
@@ -108,6 +116,7 @@ body{
     width: 100%;
     height: 60px;
     background: #005FA3;
+    
 }
 .SliderNav {
     max-width: 1110px;
@@ -116,6 +125,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    position: absolute;
+    padding-left: 405px;
+    margin-top: 497px;
 }
 .SliderNavCircle{
     max-width: 160px;
@@ -131,6 +143,7 @@ body{
     border-radius: 5px;
     background: #FFFFFF;
     opacity: .2;
+    transition: all ease 1s;
 }
 #CircleActive{
     opacity: 1;
@@ -152,15 +165,7 @@ body{
     background: #FFFFFF;
     opacity: .4;
 
-}
-.LeftArrow{
-    margin-right: -34.5px;
-    margin-left: 34.5px;
-}
-.RightArrow{
-    margin-left: -34.5px;
-    margin-right: 34.5px; 
-}
+} 
 .ServicesWrapper{
     min-height: 1242px;
     background: #EBEBEB;
